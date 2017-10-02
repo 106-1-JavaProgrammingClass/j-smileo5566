@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Q07 {
+public class Q15 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String a = scn.nextLine();
-        System.out.println(a.toLowerCase());
+        int i = Integer.parseInt(a ,16);
+        char b = (char)i;
+        System.out.println(b);
 
-    }
+       }
 }
-

@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-public class Q07 {
+public class Q08 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        String a = scn.nextLine();
-        System.out.println(a.toLowerCase());
-
+        double a = scn.nextInt();
+        System.out.println((int)( a*0.26418*10f)/10f);
     }
 }
-
